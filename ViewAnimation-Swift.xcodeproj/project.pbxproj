@@ -10,6 +10,8 @@
 		08455C9B1982DF3E003E70CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08455C9A1982DF3E003E70CE /* AppDelegate.swift */; };
 		08455C9D1982DF3E003E70CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08455C9C1982DF3E003E70CE /* Images.xcassets */; };
 		08455CA91982DF3E003E70CE /* ViewAnimation_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08455CA81982DF3E003E70CE /* ViewAnimation_SwiftTests.swift */; };
+		08455CB31982DFA4003E70CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08455CB21982DFA4003E70CE /* MainViewController.swift */; };
+		08455CB51982EADE003E70CE /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08455CB41982EADE003E70CE /* back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		08455CA21982DF3E003E70CE /* ViewAnimation-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewAnimation-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08455CA71982DF3E003E70CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08455CA81982DF3E003E70CE /* ViewAnimation_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimation_SwiftTests.swift; sourceTree = "<group>"; };
+		08455CB21982DFA4003E70CE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		08455CB41982EADE003E70CE /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				08455C9A1982DF3E003E70CE /* AppDelegate.swift */,
 				08455C9C1982DF3E003E70CE /* Images.xcassets */,
 				08455C981982DF3E003E70CE /* Supporting Files */,
+				08455CB21982DFA4003E70CE /* MainViewController.swift */,
 			);
 			path = "ViewAnimation-Swift";
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 		08455C981982DF3E003E70CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08455CB41982EADE003E70CE /* back@2x.png */,
 				08455C991982DF3E003E70CE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -183,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08455C9D1982DF3E003E70CE /* Images.xcassets in Resources */,
+				08455CB51982EADE003E70CE /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08455C9B1982DF3E003E70CE /* AppDelegate.swift in Sources */,
+				08455CB31982DFA4003E70CE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
