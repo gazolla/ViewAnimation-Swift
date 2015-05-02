@@ -41,10 +41,10 @@ class MainViewController: UIViewController {
         
         self.tapFirstView = UITapGestureRecognizer(target: self, action: "firstViewTapped")
         
-        self.firstView!.addGestureRecognizer(self.tapFirstView)
+        self.firstView!.addGestureRecognizer(self.tapFirstView!)
         
-        self.view.addSubview(self.firstView)
-        self.view.addSubview(self.secondView)
+        self.view.addSubview(self.firstView!)
+        self.view.addSubview(self.secondView!)
         
     }
     
